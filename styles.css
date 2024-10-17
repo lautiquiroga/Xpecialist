@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.section-1 {
+    background-color: gray;
+}
+
+.section-2 {
+    background-color: black;
+    height: 500vh;
+    color: white;
+    position: relative;
+}
+
+.section-2-main {
+    padding: 0 70px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+@media(max-width:1199px) {
+    .section-2-main {
+        padding: 0 20px;
+    }
+}
+
+.section-2-texts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 10vw;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 2vw;
+    font-weight: 100;
+    margin: 0;
+}
+
+.section-3 {
+    position: relative;
+    color: white;
+    height: 250vh;
+}
+
+.col-cont {
+    background-image: url('./media/s3.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+h3,
+h5,
+h6,
+p {
+    margin: 0;
+    text-align: center;
+}
+
+.section-3 .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    width: 33%;
+    transition: all .2s;
+}
+
+.section-3 .col-2 {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.section-3 h5,
+.section-3 h6 {
+    font-size: 2vw;
+    font-weight: 200;
+    opacity: 0;
+    transition: all .2s;
+}
+
+.section-3 h3 {
+    font-size: 3vw;
+    font-weight: 200;
+}
+
+.section-3 p {
+    font-size: 1vw;
+    font-weight: 200;
+    opacity: 0;
+    transition: all .2s;
+}
+
+.section-4 {
+    background-color: rgb(59, 59, 59);
+}
+
+.section-5 {
+    background-color: white;
+}
+
+.section-6 {
+    background-color: red;
+}
+
+.section-7 {
+    background-color: rgb(65, 26, 26);
+}
